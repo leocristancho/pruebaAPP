@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: SerenityInitialTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 23.902 sec <<< FAILURE! - in SerenityInitialTest
+Validacion exitosa de servicio Time Zone con coordenadas asociadas a un pais y zona horaria #2(Validacion de coordenadas asociada a un pais)  Time elapsed: 0.53 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: "Alpaquistan"
+     but: was "Ivory Coast"
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at stepdefinitions.ValidacionCoordPaisStepDefinitions.la_api_devuelve_los_resultados_asociados_al_pais_segun_las_coordenadas(ValidacionCoordPaisStepDefinitions.java:41)
+	at ?.la api devuelve los resultados asociados al pais segun las coordenadas "Alpaquistan" "Africa/Alpaquistanian"(file:///C:/Users/leocr/IdeaProjects/serenitybddprueba1/src/test/resources/features/ValidacionCoordAsociadaPais.feature:9)
+
+Validacion exitosa de servicio Time Zone con coordenadas asociadas a un pais y zona horaria #4(Validacion de coordenadas asociada a un pais)  Time elapsed: 0.444 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: "Spain"
+     but: was null
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at stepdefinitions.ValidacionCoordPaisStepDefinitions.la_api_devuelve_los_resultados_asociados_al_pais_segun_las_coordenadas(ValidacionCoordPaisStepDefinitions.java:41)
+	at ?.la api devuelve los resultados asociados al pais segun las coordenadas "Spain" "Europa/Europa"(file:///C:/Users/leocr/IdeaProjects/serenitybddprueba1/src/test/resources/features/ValidacionCoordAsociadaPais.feature:9)
+

@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Consulta disponibilidad del  servicio Time Zone","Consulta exitosa de servicio Time Zone con coordenadas correctas","SUCCESS","2021-11-30T22:58:48.71-05:00[America/Bogota]","0.0","9.76"
+"Consulta disponibilidad del  servicio Time Zone","Consulta exitosa de servicio Time Zone con coordenadas incorrectas","SUCCESS","2021-11-30T22:58:58.485-05:00[America/Bogota]","0.0","3.23"

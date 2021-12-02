@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SerenityInitialTest" time="19.212" tests="22" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\leocr\IdeaProjects\serenitybddprueba1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="419"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\leocr\IdeaProjects\serenitybddprueba1"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\leocr\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.4\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;c:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Python;C:\Python\Scripts;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Python\Scripts\;C:\Python\;C:\Users\leocr\AppData\Local\Microsoft\WindowsApps;C:\Program Files\apache-maven-3.8.4\bin;C:\Users\leocr\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.4/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.4\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\leocr"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="leocr"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Consulta exitosa de servicio Time Zone con coordenadas correctas #1" classname="Consulta disponibilidad del  servicio Time Zone" time="9.342"/>
+  <testcase name="Consulta exitosa de servicio Time Zone con coordenadas correctas #2" classname="Consulta disponibilidad del  servicio Time Zone" time="0.501"/>
+  <testcase name="Consulta exitosa de servicio Time Zone con coordenadas correctas #3" classname="Consulta disponibilidad del  servicio Time Zone" time="0.481"/>
+  <testcase name="Consulta exitosa de servicio Time Zone con coordenadas incorrectas #1" classname="Consulta disponibilidad del  servicio Time Zone" time="0.48"/>
+  <testcase name="Consulta exitosa de servicio Time Zone con coordenadas incorrectas #2" classname="Consulta disponibilidad del  servicio Time Zone" time="0.465"/>
+  <testcase name="Consulta exitosa de servicio Time Zone con coordenadas incorrectas #3" classname="Consulta disponibilidad del  servicio Time Zone" time="0.476"/>
+  <testcase name="Consulta exitosa de servicio Time Zone con coordenadas incorrectas #4" classname="Consulta disponibilidad del  servicio Time Zone" time="0.473"/>
+  <testcase name="Consulta exitosa de servicio Time Zone con coordenadas incorrectas #5" classname="Consulta disponibilidad del  servicio Time Zone" time="0.459"/>
+  <testcase name="Consulta exitosa de servicio Time Zone con coordenadas incorrectas #6" classname="Consulta disponibilidad del  servicio Time Zone" time="0.44"/>
+  <testcase name="Consulta exitosa de servicio Time Zone con coordenadas incorrectas #7" classname="Consulta disponibilidad del  servicio Time Zone" time="0.461"/>
+  <testcase name="Consulta  servicio Time Zone con  credencial username invalida #1" classname="Consulta Respuesta del servicio con Credenciales Invalidas" time="0.453"/>
+  <testcase name="Consulta  servicio Time Zone con  credencial username invalida #2" classname="Consulta Respuesta del servicio con Credenciales Invalidas" time="0.458"/>
+  <testcase name="Consulta  servicio Time Zone con  credencial username invalida #3" classname="Consulta Respuesta del servicio con Credenciales Invalidas" time="0.435"/>
+  <testcase name="Consulta  servicio Time Zone con  credencial username invalida #4" classname="Consulta Respuesta del servicio con Credenciales Invalidas" time="0.455"/>
+  <testcase name="Validacion exitosa de servicio Time Zone con coordenadas asociadas a un pais y zona horaria #1" classname="Validacion de coordenadas asociada a un pais" time="0.595"/>
+  <testcase name="Validacion exitosa de servicio Time Zone con coordenadas asociadas a un pais y zona horaria #2" classname="Validacion de coordenadas asociada a un pais" time="0.53">
+    <failure message="&#10;Expected: &quot;Alpaquistan&quot;&#10;     but: was &quot;Ivory Coast&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: "Alpaquistan"
+     but: was "Ivory Coast"
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at stepdefinitions.ValidacionCoordPaisStepDefinitions.la_api_devuelve_los_resultados_asociados_al_pais_segun_las_coordenadas(ValidacionCoordPaisStepDefinitions.java:41)
+	at ✽.la api devuelve los resultados asociados al pais segun las coordenadas "Alpaquistan" "Africa/Alpaquistanian"(file:///C:/Users/leocr/IdeaProjects/serenitybddprueba1/src/test/resources/features/ValidacionCoordAsociadaPais.feature:9)
+</failure>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/leocr/IdeaProjects/serenitybddprueba1/src/test/resources/features/ValidacionCoordAsociadaPais.feature
+[main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/leocr/IdeaProjects/serenitybddprueba1/src/test/resources/features/ValidacionCoordAsociadaPais.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+]]></system-err>
+  </testcase>
+  <testcase name="Validacion exitosa de servicio Time Zone con coordenadas asociadas a un pais y zona horaria #3" classname="Validacion de coordenadas asociada a un pais" time="0.479"/>
+  <testcase name="Validacion exitosa de servicio Time Zone con coordenadas asociadas a un pais y zona horaria #4" classname="Validacion de coordenadas asociada a un pais" time="0.444">
+    <failure message="&#10;Expected: &quot;Spain&quot;&#10;     but: was null" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: "Spain"
+     but: was null
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at stepdefinitions.ValidacionCoordPaisStepDefinitions.la_api_devuelve_los_resultados_asociados_al_pais_segun_las_coordenadas(ValidacionCoordPaisStepDefinitions.java:41)
+	at ✽.la api devuelve los resultados asociados al pais segun las coordenadas "Spain" "Europa/Europa"(file:///C:/Users/leocr/IdeaProjects/serenitybddprueba1/src/test/resources/features/ValidacionCoordAsociadaPais.feature:9)
+</failure>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/leocr/IdeaProjects/serenitybddprueba1/src/test/resources/features/ValidacionCoordAsociadaPais.feature
+[main] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/leocr/IdeaProjects/serenitybddprueba1/src/test/resources/features/ValidacionCoordAsociadaPais.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+]]></system-err>
+  </testcase>
+  <testcase name="Consulta  servicio Time Zone con  parametros de coordenadas erroneas #1" classname="Validacion  error en coordenadas" time="0.45"/>
+  <testcase name="Consulta  servicio Time Zone con  parametros de coordenadas erroneas #2" classname="Validacion  error en coordenadas" time="0.471"/>
+  <testcase name="Consulta  servicio Time Zone con  parametros de coordenadas erroneas #3" classname="Validacion  error en coordenadas" time="0.435"/>
+  <testcase name="Consulta  servicio Time Zone con  parametros de coordenadas erroneas #4" classname="Validacion  error en coordenadas" time="0.429"/>
+</testsuite>

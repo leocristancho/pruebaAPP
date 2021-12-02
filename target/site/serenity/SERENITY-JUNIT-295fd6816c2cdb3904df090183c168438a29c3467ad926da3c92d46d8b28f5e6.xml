@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Validacion de coordenadas asociada a un pais" skipped="0" tests="4" time="2.33" timestamp="2021-11-30 10:59:03"><testcase name="Validacion exitosa de servicio Time Zone con coordenadas asociadas a un pais y zona horaria"><failure message="&#10;Expected: &quot;Alpaquistan&quot;&#10;     but: was &quot;Ivory Coast&quot;" type="java.lang.AssertionError">
+Expected: "Alpaquistan"
+     but: was "Ivory Coast"</failure><system-err>
+Expected: "Alpaquistan"
+     but: was "Ivory Coast"&#13;
+stepdefinitions.ValidacionCoordPaisStepDefinitions.la_api_devuelve_los_resultados_asociados_al_pais_segun_las_coordenadas(ValidacionCoordPaisStepDefinitions.java:41)&#13;
+✽.la api devuelve los resultados asociados al pais segun las coordenadas "Alpaquistan" "Africa/Alpaquistanian"(file:///C:/Users/leocr/IdeaProjects/serenitybddprueba1/src/test/resources/features/ValidacionCoordAsociadaPais.feature:9)&#13;
+</system-err></testcase></testsuite>
