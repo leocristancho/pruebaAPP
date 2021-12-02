@@ -69,3 +69,8 @@ Una vez se finalice la ejecución de las pruebas podemos revisar los reportes co
 Ej Ruta: C:\Users\leocr\IdeaProjects\serenitybddprueba1\target\site\serenity
 
 Debemos abrir el archivo Index con un navegador como Google chrome. 
+
+######Configuración JENKINS #####
+En la entrega del proyecto se encuentra el archivo Jenkinsfile.
+Una vez ejecutado el job en Jenkins  en consola podemos ver el resultado de las pruebas, en la sección serenity podemos ver el reporte asociado con las especificación de los casos exitosos y fallidos.  
+En test Result vemos un resumen de la ejecución de las pruebas
